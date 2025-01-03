@@ -1,13 +1,20 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "bushlanov-dev/portal",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "description": "",
+    "keywords": ["laravel"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr Bushlanov",
+            "email": "alex@bushlanov.dev"
+        }
+    ],
     "require": {
-        "php": "^8.2",
+        "php": "^8.4",
         "laravel/framework": "^11.31",
+        "laravel/octane": "^2.6",
         "laravel/tinker": "^2.9"
     },
     "require-dev": {
