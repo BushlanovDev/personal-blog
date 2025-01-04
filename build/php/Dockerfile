@@ -1,11 +1,11 @@
 FROM php:8.4.2-cli AS main
 
-RUN apt-get update && apt-get install -y git curl libpng-dev libonig-dev libbrotli-dev libxml2-dev zip unzip tini \
+RUN apt-get update && apt-get install -y git curl libpng-dev libonig-dev libbrotli-dev libxml2-dev libzip-dev zip unzip tini \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 RUN cp /usr/local/etc/php/php.ini-production /usr/local/etc/php/php.ini
 
-RUN docker-php-ext-install pdo_mysql mbstring pcntl bcmath gd \
+RUN docker-php-ext-install pdo_mysql mbstring pcntl bcmath gd intl zip \
     && pecl install redis  && docker-php-ext-enable redis \
     && pecl install swoole  && docker-php-ext-enable swoole
 
