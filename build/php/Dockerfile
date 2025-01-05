@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y git curl libpng-dev libonig-dev libbrot
 
 RUN cp /usr/local/etc/php/php.ini-production /usr/local/etc/php/php.ini
 
-RUN docker-php-ext-install pdo_mysql mbstring pcntl bcmath gd intl zip \
+RUN docker-php-ext-install pdo_mysql mbstring pcntl bcmath gd intl zip opcache \
     && pecl install redis  && docker-php-ext-enable redis \
     && pecl install swoole  && docker-php-ext-enable swoole
 
