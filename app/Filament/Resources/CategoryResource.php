@@ -37,7 +37,7 @@ class CategoryResource extends Resource
                 Forms\Components\FileUpload::make('image')
                     ->image()
                     ->directory('category-images')
-                    ->preserveFilenames()
+                    ->preserveFilenames(false)
                     ->fetchFileInformation(false)
                     ->columnSpan(12),
             ]);
