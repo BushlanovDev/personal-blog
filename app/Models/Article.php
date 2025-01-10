@@ -18,9 +18,7 @@ class Article extends Model
         'slug',
         'image_preview',
         'image_detail',
-        'text_preview',
-        'text_detail',
-        'text_detail',
+        'content',
         'published_at',
     ];
 

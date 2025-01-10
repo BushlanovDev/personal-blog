@@ -82,10 +82,7 @@ class ArticleResource extends Resource
                     ->directory('article-images')
                     ->preserveFilenames(false)
                     ->fetchFileInformation(false),
-                Forms\Components\Textarea::make('text_preview')
-                    ->required()
-                    ->columnSpanFull(),
-                Forms\Components\RichEditor::make('text_detail')
+                Forms\Components\RichEditor::make('content')
                     ->required()
                     ->columnSpanFull(),
             ]);

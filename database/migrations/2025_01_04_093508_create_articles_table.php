@@ -18,8 +18,7 @@ return new class extends Migration {
             $table->string('slug');
             $table->string('image_preview')->nullable();
             $table->string('image_detail')->nullable();
-            $table->text('text_preview');
-            $table->text('text_detail');
+            $table->text('content');
             $table->date('published_at');
             $table->timestamps();
 
