@@ -33,24 +33,23 @@
                 </div>
             </div>
             <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-                <div class="mb-12 lg:mb-16"><h2 class="mb-10 text-xl font-bold text-black dark:text-white">{{__('Quick Links')}}</h2>
-                    <ul>
-                        <li>
-                            <a class="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary" href="{{route('home')}}">{{__('Home')}}</a>
-                        </li>
-                        <li>
-                            <a class="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary" href={{route('article.index')}}>{{__('Blog')}}</a>
-                        </li>
-                        <li>
-                            <a class="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary" href={{route('article.index')}}>{{__('Categories')}}</a>
-                        </li>
-                        <li>
-                            <a class="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary" href={{route('article.index')}}>{{__('Tags')}}</a>
-                        </li>
-                        <li>
-                            <a class="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary" href="{{route('about')}}">{{__('About')}}</a>
-                        </li>
-                    </ul>
+                <ul>
+                    <li>
+                        <a class="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary" href="{{route('home')}}">{{__('Home')}}</a>
+                    </li>
+                    <li>
+                        <a class="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary" href={{route('article.index')}}>{{__('Blog')}}</a>
+                    </li>
+                    <li>
+                        <a class="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary" href={{route('article.index')}}>{{__('Categories')}}</a>
+                    </li>
+                    <li>
+                        <a class="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary" href={{route('article.index')}}>{{__('Tags')}}</a>
+                    </li>
+                    <li>
+                        <a class="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary" href="{{route('about')}}">{{__('About')}}</a>
+                    </li>
+                </ul>
                 </div>
             </div>
         </div>
