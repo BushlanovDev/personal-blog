@@ -1,0 +1,17 @@
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 4.5rem;
+    white-space: normal;
+}
+
+.article-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0;
+    color: transparent;
+}

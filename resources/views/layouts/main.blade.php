@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="/css/layout.css?v=1736280396801"/>
+    <link rel="stylesheet" href="/css/custom.css?v=1736280396801"/>
     <title>Laravel</title>
 </head>
 <body class="bg-[#FCFCFC] dark:bg-black">
